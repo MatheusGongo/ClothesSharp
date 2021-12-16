@@ -1,0 +1,2 @@
+﻿INSERT INTO [C:\USERS\OKUMU\ONEDRIVE\DOCUMENTS\CLOTHESSHARP.MDF].dbo.tblClothesProgressive(Title, NewValue, Subscript, Parcels, ImageProduct, Chip)
+VALUES ('Camiseta Listrada Duna', 152.15, 299 ,'2x R$ 76,07' ,(SELECT * FROM OPENROWSET(BULK N'C:\Users\okumu\OneDrive\Área de Trabalho\Camiseta-Listrada-Duna.jpg', SINGLE_BLOB) as T1) , (SELECT * FROM OPENROWSET(BULK N'C:\Users\okumu\OneDrive\Área de Trabalho\40.png', SINGLE_BLOB) as T2));
